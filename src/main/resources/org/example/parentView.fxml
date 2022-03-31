@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<StackPane xmlns="http://javafx.com/javafx/16"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="org.example.ParentController">
+   <Group StackPane.alignment="CENTER">
+      <VBox>
+         <Accordion fx:id="accordion"/>
+         <Button onAction="#onAddAction" text="Add"/>
+      </VBox>
+   </Group>
+</StackPane>
