@@ -5,6 +5,6 @@
 <?import javafx.scene.layout.VBox?>
 <fx:root type="javafx.scene.control.TitledPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
     <VBox>
-        <Button id="removeButton" fx:id="removeButton" text="Remove"/>
+        <Button fx:id="removeButton" text="Remove"/>
     </VBox>
 </fx:root>
